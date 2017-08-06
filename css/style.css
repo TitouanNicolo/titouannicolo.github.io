@@ -4,10 +4,10 @@
       background-size: 100%;
       min-height: 700px;
 
-    animation: fadein 4s;
-    -moz-animation: fadein 4s; /* Firefox */
-    -webkit-animation: fadein 4s; /* Safari et Chrome */
-    -o-animation: fadein 4s; /* Opera */
+     animation: fadein 4s;
+     -moz-animation: fadein 4s; /* Firefox */
+     -webkit-animation: fadein 4s; /* Safari et Chrome */
+     -o-animation: fadein 4s; /* Opera */
 } 
 
  #header .contentHeader{
