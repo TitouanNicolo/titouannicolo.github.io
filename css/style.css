@@ -1,0 +1,133 @@
+ #header{
+     background: url(../images/img-3.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      min-height: 700px;
+
+ animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari et Chrome */
+    -o-animation: fadein 4s; /* Opera */
+} 
+
+ #header .contentHeader{
+     min-height: 700px;
+
+ }
+
+  #profil
+  {
+      padding-top:2em;
+      text-align: center;
+
+  }
+    #profil .contentProfil{
+        padding-top: 10px;
+    }
+     #profil a
+  {
+     text-decoration: none;
+     color:black;
+     font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+      
+  }
+      #profil h1
+  {
+      font-family: 'Arvo', serif;
+  }
+  
+     .part-2{
+        border-left: 2px solid black;
+    } 
+#photo{
+    width:20%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+ #profil p {
+font-family: 'Montserrat', sans-serif;
+ }
+
+  #header .contentHeader #name{
+font-family: 'Arvo', serif;
+color: white;
+text-align: center;
+ position:  absolute ;
+  top: 40%;
+  left: 40%;
+  font-size: 3em;
+ } 
+#header .contentHeader #web{
+font-family: 'Arvo', serif;
+color: white;
+text-align: center;
+ position:  absolute ;
+  top: 50%;
+  left: 45%;
+  font-size: 3em;
+
+ } 
+
+
+ /*Apparition progressive*/
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/*Cercle de compétences*/
+
+#skills{
+text-align: center;
+}
+.text{
+    display: none;
+}
+.diagram{
+    
+}
+
+/*Footer*/
+
+#footer{
+    background: #193340;
+   text-align:center;
+   height: 50px;
+}
+#github{
+    padding-top:5px;;
+    color: white;
+    size: 25px;
+}
