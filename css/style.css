@@ -2,8 +2,6 @@
      background: url(../images/img-3.png) no-repeat center;
       background-repeat: no-repeat;
       background-size: cover;
-      
-      /* min-height: 700px; */
 
      animation: fadein 4s;
      -moz-animation: fadein 4s; /* Firefox */
@@ -11,9 +9,6 @@
      -o-animation: fadein 4s; /* Opera */
 } 
 
- #header .contentHeader{
-     /* min-height: 700px; */
- }
     #header .contentHeader div {
     position: absolute;
     left: 50%;
@@ -111,12 +106,6 @@ font-family: 'Montserrat', sans-serif;
  }
 
  
- 
-
-
-
-
-
 /*Cercle de compétences*/
 
 #skills{
