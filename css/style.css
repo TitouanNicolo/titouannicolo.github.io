@@ -116,6 +116,15 @@ text-align: center;
 }
 
 
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+    #diagram{
+        transform: scale(0.5);
+    }
+}
+
 /*Footer*/
 
 #footer{
