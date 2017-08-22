@@ -116,14 +116,48 @@ text-align: center;
 }
 
 
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
+/*Full screen*/
+#content{
+    position: relative;
+    overflow: hidden;
+}
+#contentDiagram{
+    position: relative;  display: inline-block;
+}
+#diagram {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+svg{
+    position: relative;
+}
+
+
+@media only screen and (max-width: 720px) {
+  
+    #contentDiagram{
+        width: 300px;
+        height: 300px;
     }
-    #diagram{
+    svg{
         transform: scale(0.5);
     }
+   
 }
+
+@media only screen and (min-width: 721px) {
+    
+      #contentDiagram{
+          width: 600px;
+          height: 600px;
+      }
+      svg{
+          transform: scale(1);
+      }
+     
+  }
 
 /*Footer*/
 
