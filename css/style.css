@@ -1,5 +1,5 @@
  #header{
-     background: url(../images/img-3.png) no-repeat center;
+     background: url(../images/img-3bis.png) no-repeat center;
       background-repeat: no-repeat;
       background-size: cover;
       position:relative;
@@ -25,7 +25,7 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: 'Arvo', serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
     text-align: center;
     font-size: 3em;
@@ -84,12 +84,12 @@
      text-decoration: none;
      color:black;
      font-weight: 200;
-  font-family: 'Montserrat', sans-serif;
+     font-family: 'Quicksand', sans-serif;
       
   }
       #profil h1
   {
-      font-family: 'Arvo', serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
      .part-2{
@@ -102,7 +102,7 @@
     
 }
  #profil p {
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
  }
 
  
