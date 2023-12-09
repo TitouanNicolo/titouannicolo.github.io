@@ -7,8 +7,50 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+    
+        .container {
+          display: flex;
+          height: 100vh;
+        }
+    
+        .section {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          font-size: 24px;
+        }
+    
+        .section:nth-child(1) {
+          background-color: #3498db; /* Couleur de fond pour la première section */
+        }
+    
+        .section:nth-child(2) {
+          background-color: #e74c3c; /* Couleur de fond pour la deuxième section */
+        }
+    
+        @media screen and (max-width: 768px) {
+          .container {
+            flex-direction: column;
+          }
+        }
+      </style>
 </head>
 <body>
-   QR CODE MEC
+    <div class="container">
+        <div class="section">
+          <p>47.167577038712494</p>
+        </div>
+        <div class="section">
+          <p>-1.268286918671828</p>
+        </div>
+      </div>
 </body>
 </html>
